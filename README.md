@@ -27,5 +27,5 @@ Attributes:
  8) The overall view count is dominated by claim videos even though there are roughly the same number of each video in the dataset.
  9) Null values were found in 7 different columns.
 
-Model Used: Logistic Regression
+Model Used: Logistic Regression  
 I have developed a logistic regression model for verified status based on video features. The model had decent predictive power. Based on the estimated model coefficients from the logistic regression, longer videos tend to be associated with higher odds of the user being verified. Other video features have small estimated coefficients in the model, so their association with verified status seems to be small.
